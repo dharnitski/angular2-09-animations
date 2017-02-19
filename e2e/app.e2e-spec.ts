@@ -1,10 +1,10 @@
-import { AmimationsPage } from './app.po';
+import { AnimationsPage } from './app.po';
 
-describe('amimations App', function() {
-  let page: AmimationsPage;
+describe('animations App', function() {
+  let page: AnimationsPage;
 
   beforeEach(() => {
-    page = new AmimationsPage();
+    page = new AnimationsPage();
   });
 
   it('should display message saying app works', () => {
